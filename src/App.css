@@ -1,0 +1,25 @@
+p{
+  color: black;
+}
+
+body, html {
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+  min-height: 100vh;
+}
+
+.content-box {
+  border: 2px solid #333;       
+  padding: 30px;                
+  border-radius: 10px;          
+  background-color: white;      
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  text-align: center;
+}
